@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Rules for StyleCop.Analyzers" Description="Code analysis rules for StyleCop.Analyzers.csproj." ToolsVersion="14.0">
+  <Rules AnalyzerId="AsyncUsageAnalyzers" RuleNamespace="AsyncUsageAnalyzers">
+    <Rule Id="AvoidAsyncSuffix" Action="Error" />
+    <Rule Id="AvoidAsyncVoid" Action="Error" />
+    <Rule Id="UseAsyncSuffix" Action="Error" />
+    <Rule Id="UseConfigureAwait" Action="Error" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1001" Action="Warning" />
+    <Rule Id="CA1009" Action="Warning" />
+    <Rule Id="CA1016" Action="Warning" />
+    <Rule Id="CA1033" Action="Warning" />
+    <Rule Id="CA1049" Action="Warning" />
+    <Rule Id="CA1060" Action="Warning" />
+    <Rule Id="CA1061" Action="Warning" />
+    <Rule Id="CA1063" Action="Warning" />
+    <Rule Id="CA1065" Action="Warning" />
+    <Rule Id="CA1301" Action="Warning" />
+    <Rule Id="CA1400" Action="Warning" />
+    <Rule Id="CA1401" Action="Warning" />
+    <Rule Id="CA1403" Action="Warning" />
+    <Rule Id="CA1404" Action="Warning" />
+    <Rule Id="CA1405" Action="Warning" />
+    <Rule Id="CA1410" Action="Warning" />
+    <Rule Id="CA1415" Action="Warning" />
+    <Rule Id="CA1821" Action="Warning" />
+    <Rule Id="CA1900" Action="Warning" />
+    <Rule Id="CA1901" Action="Warning" />
+    <Rule Id="CA2002" Action="Warning" />
+    <Rule Id="CA2100" Action="Warning" />
+    <Rule Id="CA2101" Action="Warning" />
+    <Rule Id="CA2108" Action="Warning" />
+    <Rule Id="CA2111" Action="Warning" />
+    <Rule Id="CA2112" Action="Warning" />
+    <Rule Id="CA2114" Action="Warning" />
+    <Rule Id="CA2116" Action="Warning" />
+    <Rule Id="CA2117" Action="Warning" />
+    <Rule Id="CA2122" Action="Warning" />
+    <Rule Id="CA2123" Action="Warning" />
+    <Rule Id="CA2124" Action="Warning" />
+    <Rule Id="CA2126" Action="Warning" />
+    <Rule Id="CA2131" Action="Warning" />
+    <Rule Id="CA2132" Action="Warning" />
+    <Rule Id="CA2133" Action="Warning" />
+    <Rule Id="CA2134" Action="Warning" />
+    <Rule Id="CA2137" Action="Warning" />
+    <Rule Id="CA2138" Action="Warning" />
+    <Rule Id="CA2140" Action="Warning" />
+    <Rule Id="CA2141" Action="Warning" />
+    <Rule Id="CA2146" Action="Warning" />
+    <Rule Id="CA2147" Action="Warning" />
+    <Rule Id="CA2149" Action="Warning" />
+    <Rule Id="CA2200" Action="Warning" />
+    <Rule Id="CA2202" Action="Warning" />
+    <Rule Id="CA2207" Action="Warning" />
+    <Rule Id="CA2212" Action="Warning" />
+    <Rule Id="CA2213" Action="Warning" />
+    <Rule Id="CA2214" Action="Warning" />
+    <Rule Id="CA2216" Action="Warning" />
+    <Rule Id="CA2220" Action="Warning" />
+    <Rule Id="CA2229" Action="Warning" />
+    <Rule Id="CA2231" Action="Warning" />
+    <Rule Id="CA2232" Action="Warning" />
+    <Rule Id="CA2235" Action="Warning" />
+    <Rule Id="CA2236" Action="Warning" />
+    <Rule Id="CA2237" Action="Warning" />
+    <Rule Id="CA2238" Action="Warning" />
+    <Rule Id="CA2240" Action="Warning" />
+    <Rule Id="CA2241" Action="Warning" />
+    <Rule Id="CA2242" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Features" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Features">
+    <Rule Id="IDE0003" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1002" Action="Error" />
+    <Rule Id="SA1004" Action="Error" />
+    <Rule Id="SA1005" Action="None" />
+    <Rule Id="SA1006" Action="Error" />
+    <Rule Id="SA1007" Action="Error" />
+    <Rule Id="SA1008" Action="Error" />
+    <Rule Id="SA1010" Action="Error" />
+    <Rule Id="SA1011" Action="Error" />
+    <Rule Id="SA1012" Action="Error" />
+    <Rule Id="SA1014" Action="Error" />
+    <Rule Id="SA1015" Action="Error" />
+    <Rule Id="SA1016" Action="Error" />
+    <Rule Id="SA1017" Action="Error" />
+    <Rule Id="SA1018" Action="Error" />
+    <Rule Id="SA1019" Action="Error" />
+    <Rule Id="SA1020" Action="Error" />
+    <Rule Id="SA1023" Action="Error" />
+    <Rule Id="SA1026" Action="Error" />
+    <Rule Id="SA1107" Action="Error" />
+    <Rule Id="SA1110" Action="Error" />
+    <Rule Id="SA1113" Action="Error" />
+    <Rule Id="SA1114" Action="Error" />
+    <Rule Id="SA1115" Action="Error" />
+    <Rule Id="SA1205" Action="Error" />
+    <Rule Id="SA1206" Action="Error" />
+    <Rule Id="SA1207" Action="Error" />
+    <Rule Id="SA1212" Action="Error" />
+    <Rule Id="SA1213" Action="Error" />
+    <Rule Id="SA1308" Action="Error" />
+    <Rule Id="SA1310" Action="None" />
+    <Rule Id="SA1500" Action="Error" />
+    <Rule Id="SA1501" Action="Error" />
+    <Rule Id="SA1502" Action="Error" />
+    <Rule Id="SA1504" Action="Error" />
+    <Rule Id="SA1506" Action="Error" />
+    <Rule Id="SA1509" Action="Error" />
+    <Rule Id="SA1510" Action="Error" />
+    <Rule Id="SA1511" Action="Error" />
+    <Rule Id="SA0000" Action="Hidden" />
+    <Rule Id="SA1000" Action="Error" />
+    <!-- KeywordsMustBeSpacedCorrectly -->
+    <Rule Id="SA1001" Action="Error" />
+    <!-- CommasMustBeSpaceCorrectly -->
+    <Rule Id="SA1003" Action="Error" />
+    <!-- SymbolsMustBeSpacedCorrectly -->
+    <Rule Id="SA1009" Action="Error" />
+    <!-- ClosingParenthesisMustBeSpacedCorrectly -->
+    <Rule Id="SA1013" Action="Error" />
+    <!-- ClosingBracesMustBeSpacedCorrectly -->
+    <Rule Id="SA1021" Action="Error" />
+    <!-- NegativeSignsMustBeSpacedCorrectly -->
+    <Rule Id="SA1022" Action="Error" />
+    <!-- PositiveSignsMustBeSpacedCorrectly -->
+    <Rule Id="SA1024" Action="Error" />
+    <!-- ColonsMustBeSpacedCorrectly -->
+    <Rule Id="SA1025" Action="Error" />
+    <!-- CodeMustNotContainMultipleWhitespaceInARow -->
+    <Rule Id="SA1028" Action="Error" />
+    <!-- CodeMustNotContainTrailingWhitespace -->
+    <Rule Id="SA1100" Action="Error" />
+    <!-- DoNotPrefixCallsWithBaseUnlessLocalImplementationExists -->
+    <Rule Id="SA1106" Action="Error" />
+    <!-- CodeMustNotContainEmptyStatements -->
+    <Rule Id="SA1108" Action="None" />
+    <!-- BlockStatementsMustNotContainEmbeddedComments -->
+    <Rule Id="SA1111" Action="Error" />
+    <!-- ClosingParenthesisMustBeOnLineOfLastParameter -->
+    <Rule Id="SA1112" Action="Error" />
+    <!-- ClosingParenthesisMustBeOnLineOfOpeningParenthesis -->
+    <Rule Id="SA1116" Action="Error" />
+    <!-- SplitParametersMustStartOnLineAfterDeclaration -->
+    <Rule Id="SA1117" Action="Error" />
+    <!-- ParametersMustBeOnSameLineOrSeparateLines -->
+    <Rule Id="SA1119" Action="Error" />
+    <!-- StatementMustNotUseUnnecessaryParenthesis -->
+    <Rule Id="SA1121" Action="Error" />
+    <!-- UseBuiltInTypeAlias -->
+    <Rule Id="SA1122" Action="Error" />
+    <!-- UseStringEmptyForEmptyStrings -->
+    <Rule Id="SA1127" Action="Error" />
+    <!-- GenericTypeConstraintsMustBeOnOwnLine -->
+    <Rule Id="SA1128" Action="Error" />
+    <!-- ConstructorInitializerMustBeOnOwnLine -->
+    <Rule Id="SA1133" Action="Error" />
+    <!-- DoNotCombineAttributes -->
+    <Rule Id="SA1203" Action="Error" />
+    <!-- ConstantsMustAppearBeforeFields -->
+    <Rule Id="SA1300" Action="Error" />
+    <!-- ElementMustBeginWithUpperCaseLetter -->
+    <Rule Id="SA1302" Action="Error" />
+    <!-- InterfaceNamesMustBeginWithI -->
+    <Rule Id="SA1303" Action="Error" />
+    <!-- ConstFieldNamesMustBeginWithUpperCaseLetter -->
+    <Rule Id="SA1304" Action="Error" />
+    <!-- NonPrivateReadonlyFieldsMustBeginWithUpperCaseLetter -->
+    <Rule Id="SA1311" Action="Error" />
+    <!-- StaticReadonlyFieldsMustBeginWithUpperCaseLetter -->
+    <Rule Id="SA1400" Action="Error" />
+    <!-- AccessModifierMustBeDeclared -->
+    <Rule Id="SA1401" Action="Error" />
+    <!-- FieldsMustBePrivate -->
+    <Rule Id="SA1402" Action="Error" />
+    <!-- FileMayOnlyContainASingleType -->
+    <Rule Id="SA1403" Action="Error" />
+    <!-- FileMayOnlyContainASingleNamespace -->
+    <Rule Id="SA1404" Action="Error" />
+    <!-- CodeAnalysisSuppressionMustHaveJustification -->
+    <Rule Id="SA1405" Action="Error" />
+    <!-- DebugAssertMustProvideMessageText -->
+    <Rule Id="SA1406" Action="Error" />
+    <!-- DebugFailMustProvideMessageText -->
+    <Rule Id="SA1407" Action="Error" />
+    <!-- ArithmeticExpressionsMustDeclarePrecedence -->
+    <Rule Id="SA1408" Action="Error" />
+    <!-- ConditionalExpressionsMustDeclarePrecedence -->
+    <Rule Id="SA1410" Action="Error" />
+    <!-- RemoveDelegateParenthesisWhenPossible -->
+    <Rule Id="SA1411" Action="Error" />
+    <!-- AttributeConstructorMustNotUseUnnecessaryParenthesis -->
+    <Rule Id="SA1505" Action="Error" />
+    <!-- OpeningBracesMustNotBeFollowedByBlankLine -->
+    <Rule Id="SA1507" Action="Error" />
+    <!-- CodeMustNotContainMultipleBlankLinesInARow -->
+    <Rule Id="SA1508" Action="Error" />
+    <!-- ClosingBracesMustNotBePrecededByBlankLine -->
+    <Rule Id="SA1513" Action="Error" />
+    <!-- ClosingBraceMustBeFollowedByBlankLine -->
+    <Rule Id="SA1516" Action="Error" />
+    <!-- ElementsMustBeSeparatedByBlankLine -->
+    <Rule Id="SA1517" Action="Error" />
+    <!-- CodeMustNotContainBlankLinesAtStartOfFile -->
+    <Rule Id="SA1518" Action="Error" />
+    <!-- UseLineEndingsCorrectlyAtEndOfFile -->
+    <Rule Id="SA1520" Action="Error" />
+    <!-- UseBracesConsistently -->
+    <Rule Id="SA1642" Action="Error" />
+    <!-- ConstructorSummaryDocumentationMustBeginWithStandardText -->
+    <Rule Id="SA1643" Action="Error" />
+    <!-- DestructorSummaryDocumentationMustBeginWithStandardText -->
+    <Rule Id="SA1649" Action="Error" />
+    <!-- FileNameMustMatchTypeName -->
+    <Rule Id="SA1612" Action="Error" />
+    <!-- ElementParameterDocumentationMustMatchElementParameters -->
+    <Rule Id="SA1613" Action="Error" />
+    <!-- ElementParameterDocumentationMustDeclareParameterName -->
+    <Rule Id="SA1623" Action="Error" />
+    <!-- PropertySummaryDocumentationMustMatchAccessors -->
+    <Rule Id="SX1101" Action="Error" />
+    <!-- DoNotPrefixLocalMembersWithThis -->
+    <Rule Id="SX1309" Action="Error" />
+    <!-- FieldNamesMustBeginWithUnderscore -->
+    <Rule Id="SA1305" Action="Error" />
+    <!-- FieldNamesMustNotUseHungarianNotation -->
+    <Rule Id="SA1412" Action="Warning" />
+    <!-- StoreFilesAsUtf8 -->
+    <Rule Id="SA1101" Action="None" />
+    <!-- PrefixLocalCallsWithThis -->
+    <Rule Id="SA1124" Action="None" />
+    <!-- DoNotUseRegions -->
+    <Rule Id="SA1200" Action="None" />
+    <!-- UsingDirectivesMustBePlacedWithinNamespace -->
+    <Rule Id="SA1201" Action="None" />
+    <!-- ElementsMustAppearInTheCorrectOrder -->
+    <Rule Id="SA1202" Action="None" />
+    <!-- ElementsMustBeOrderedByAccess -->
+    <Rule Id="SA1208" Action="None" />
+    <!-- SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives -->
+    <Rule Id="SA1210" Action="None" />
+    <!-- UsingDirectivesMustBeOrderedAlphabeticallyByNamespace -->
+    <Rule Id="SA1309" Action="None" />
+    <!-- FieldNamesMustNotBeginWithUnderscore -->
+    <Rule Id="SA1413" Action="None" />
+    <!-- UseTrailingCommasInMultiLineInitializers -->
+    <Rule Id="SA1503" Action="None" />
+    <!-- CurlyBracketsMustNotBeOmitted -->
+    <Rule Id="SA1512" Action="None" />
+    <!-- SingleLineCommentsMustNotBeFollowedByBlankLine -->
+    <Rule Id="SA1515" Action="None" />
+    <!-- SingleLineCommentsMustBePrecededByBlankLine -->
+    <Rule Id="SA1600" Action="None" />
+    <!-- ElementsMustBeDocumented -->
+    <Rule Id="SA1609" Action="None" />
+    <!-- PropertyDocumentationMustHaveValue -->
+    <Rule Id="SA1611" Action="None" />
+    <!-- ElementParametersMustBeDocumented -->
+    <Rule Id="SA1618" Action="None" />
+    <!-- GenericTypeParametersMustBeDocumented -->
+    <Rule Id="SA1633" Action="None" />
+    <!-- FileMustHaveHeader -->
+    <Rule Id="SA1602" Action="None" />
+    <Rule Id="SA1652" Action="None" />
+    <Rule Id="SA1118" Action="None" />
+  </Rules>
+</RuleSet>
