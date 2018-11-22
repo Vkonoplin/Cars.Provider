@@ -1,5 +1,7 @@
 ﻿using System.Threading.Tasks;
+using MongoDB.Bson;
 using MongoDB.Driver;
+using MongoDB.Driver.Core.Clusters;
 using VK.Cars.Provider.Service.WebApi.Db;
 using VK.Cars.Provider.Service.WebApi.Db.Entities;
 
@@ -27,14 +29,23 @@ namespace VK.Cars.Provider.Service.WebApi.Business.Repositories
                 .DeleteOneAsync(f => f.HealthCheckDataId == entity.HealthCheckDataId);
         }
 
-        public Task<HealthCheckDataEntity> GetById(string id)
+        public async Task<HealthCheckDataEntity> GetById(ObjectId id)
         {
-            throw new System.NotImplementedException();
+            return await _dbContext.Db.GetCollection<HealthCheckDataEntity>(nameof(HealthCheckDataEntity))
+                .Find(f => f.HealthCheckDataId == id).FirstAsync();
         }
 
-        public Task<HealthCheckDataEntity> Update(HealthCheckDataEntity entity)
+        public async Task<UpdateResult> Update(HealthCheckDataEntity entity)
         {
-            throw new System.NotImplementedException();
+            var update = Builders<HealthCheckDataEntity>.Update.Set(x => x.UpdateDate, entity.UpdateDate);
+
+            return await _dbContext.Db.GetCollection<HealthCheckDataEntity>(nameof(HealthCheckDataEntity))
+                .UpdateOneAsync(f => f.HealthCheckDataId == entity.HealthCheckDataId, update);
+        }
+
+        public ClusterState GetClusterState()
+        {
+            return _dbContext.Db.Client.Cluster.Description.State;
         }
     }
 }
