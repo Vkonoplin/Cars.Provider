@@ -32,8 +32,10 @@ namespace VK.Cars.Provider.Service.WebApi
             services.AddOptions();
 
             services.AddTransient<IHealthCheckRepository, HealthCheckRepository>();
+            services.AddTransient<ICarImportRepository, CarImportRepository>();
 
             services.AddTransient<HealthCheckService>();
+            services.AddTransient<ICarImportService, CarImportService>();
 
             services.AddMvc(options => { options.Filters.Add<ExceptionFilter>(); }).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -54,6 +56,8 @@ namespace VK.Cars.Provider.Service.WebApi
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Manifest API");
             });
             app.UseMvc();
+
+            app.ApplicationServices.GetService<ICarImportService>().ImportCars(env);
         }
     }
 }
