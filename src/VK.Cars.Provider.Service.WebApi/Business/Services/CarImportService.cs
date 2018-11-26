@@ -19,12 +19,23 @@ namespace VK.Cars.Provider.Service.WebApi.Business.Services
 
         public async Task ImportCars(IHostingEnvironment en)
         {
+            var dataSource = await _carImportRepository.GetImportDataSource();
+
             var path = Path.Combine(en.WebRootPath, "data");
             var files = Directory.EnumerateFiles(path);
-            var file = files.Last();
-            var text = File.ReadAllText(file);
-            var docs = BsonSerializer.Deserialize<BsonArray>(text).Select(p => p.AsBsonDocument).ToList();
-            await _carImportRepository.InsertDocuments(docs);
+
+            foreach (var file in files)
+            {
+                if (!dataSource.Any(r => r.Source == "json_data_car_1.json"))
+                {
+                    await Task.Factory.StartNew(() =>
+                    {
+                        var text = File.ReadAllText(file);
+                        var docs = BsonSerializer.Deserialize<BsonArray>(text).Select(p => p.AsBsonDocument).ToList();
+                         _carImportRepository.InsertDocuments(docs);
+                    });
+                }
+            }
         }
     }
 }
