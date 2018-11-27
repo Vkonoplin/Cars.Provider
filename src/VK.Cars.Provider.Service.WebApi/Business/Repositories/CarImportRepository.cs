@@ -23,6 +23,11 @@ namespace VK.Cars.Provider.Service.WebApi.Business.Repositories
             return await data.ToListAsync();
         }
 
+        public async Task InsertDataSource(ImportDataSource doc)
+        {
+            await _dbContext.Db.GetCollection<ImportDataSource>(nameof(ImportDataSource)).InsertOneAsync(doc);
+        }
+
         public async Task InsertDocuments(IEnumerable<BsonDocument> documents)
         {
             await _dbContext.Db.GetCollection<BsonDocument>(nameof(Car)).InsertManyAsync(documents);

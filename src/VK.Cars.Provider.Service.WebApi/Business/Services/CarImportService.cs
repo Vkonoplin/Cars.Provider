@@ -1,10 +1,13 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using VK.Cars.Provider.Service.WebApi.Business.Repositories;
+using VK.Cars.Provider.Service.WebApi.Db.Entities;
 
 namespace VK.Cars.Provider.Service.WebApi.Business.Services
 {
@@ -26,14 +29,20 @@ namespace VK.Cars.Provider.Service.WebApi.Business.Services
 
             foreach (var file in files)
             {
-                if (!dataSource.Any(r => r.Source == "json_data_car_1.json"))
+                if (!dataSource.Any(r => r.Source == file))
                 {
-                    await Task.Factory.StartNew(() =>
+                    await Task.Factory.StartNew(
+                        () =>
                     {
                         var text = File.ReadAllText(file);
                         var docs = BsonSerializer.Deserialize<BsonArray>(text).Select(p => p.AsBsonDocument).ToList();
-                         _carImportRepository.InsertDocuments(docs);
-                    });
+                        _carImportRepository.InsertDocuments(docs);
+                        _carImportRepository.InsertDataSource(new ImportDataSource
+                        {
+                            Source = file,
+                            Date = DateTime.UtcNow
+                        });
+                    }, CancellationToken.None);
                 }
             }
         }

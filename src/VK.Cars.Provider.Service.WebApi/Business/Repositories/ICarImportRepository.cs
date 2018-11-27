@@ -9,6 +9,8 @@ namespace VK.Cars.Provider.Service.WebApi.Business.Repositories
     {
         Task InsertDocuments(IEnumerable<BsonDocument> documents);
 
+        Task InsertDataSource(ImportDataSource doc);
+
         Task<IEnumerable<ImportDataSource>> GetImportDataSource();
     }
 }

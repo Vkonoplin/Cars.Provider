@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson;
+﻿using System.Collections.Generic;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace VK.Cars.Provider.Service.WebApi.Db.Entities
@@ -13,5 +14,7 @@ namespace VK.Cars.Provider.Service.WebApi.Db.Entities
         public int Year { get; set; }
 
         public string Model { get; set; }
+
+        public List<string> BodyStyles { get; set; }
     }
 }

@@ -11,7 +11,6 @@ namespace VK.Cars.Provider.Service.WebApi.Db.Entities
 
         public string Source { get; set; }
 
-        [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
         public DateTime Date { get; set; }
     }
 }
