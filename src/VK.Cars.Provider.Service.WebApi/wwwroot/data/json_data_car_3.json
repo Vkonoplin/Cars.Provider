@@ -1625,7 +1625,7 @@
   {
     "Year": 2000,
     "Make": "Mazda",
-    "Model": 626,
+    "Model": "626",
     "BodyStyles": [
       "Sedan"
     ]
@@ -2043,7 +2043,7 @@
   {
     "Year": 2000,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -4051,7 +4051,7 @@
   {
     "Year": 2001,
     "Make": "Mazda",
-    "Model": 626,
+    "Model": "626",
     "BodyStyles": [
       "Sedan"
     ]
@@ -4453,7 +4453,7 @@
   {
     "Year": 2001,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -6568,7 +6568,7 @@
   {
     "Year": 2002,
     "Make": "Mazda",
-    "Model": 626,
+    "Model": "626",
     "BodyStyles": [
       "Sedan"
     ]
@@ -6987,7 +6987,7 @@
   {
     "Year": 2002,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -9487,7 +9487,7 @@
   {
     "Year": 2003,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Convertible",
       "Coupe"
@@ -12122,7 +12122,7 @@
   {
     "Year": 2004,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Convertible",
       "Coupe"
@@ -13299,7 +13299,7 @@
   {
     "Year": 2005,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -14424,7 +14424,7 @@
   {
     "Year": 2005,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -14432,7 +14432,7 @@
   {
     "Year": 2005,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -14900,7 +14900,7 @@
   {
     "Year": 2005,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -16045,7 +16045,7 @@
   {
     "Year": 2006,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -17266,7 +17266,7 @@
   {
     "Year": 2006,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -17274,7 +17274,7 @@
   {
     "Year": 2006,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -17755,7 +17755,7 @@
   {
     "Year": 2006,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -18964,7 +18964,7 @@
   {
     "Year": 2007,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -20301,7 +20301,7 @@
   {
     "Year": 2007,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -20309,7 +20309,7 @@
   {
     "Year": 2007,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -20783,7 +20783,7 @@
   {
     "Year": 2007,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MongoDB.Driver.Core.Clusters;
-using VK.Cars.Provider.Service.WebApi.Business.Repositories;
+using VK.Cars.Provider.Service.WebApi.Business.Contracts;
 using VK.Cars.Provider.Service.WebApi.Db.Entities;
 using VK.Cars.Provider.Service.WebApi.Infrastructure;
 using VK.Cars.Provider.Service.WebApi.Infrastructure.Models;

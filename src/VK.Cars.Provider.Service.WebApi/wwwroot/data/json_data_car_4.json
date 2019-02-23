@@ -683,7 +683,7 @@
   {
     "Year": 2008,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -1972,7 +1972,7 @@
   {
     "Year": 2008,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -1980,7 +1980,7 @@
   {
     "Year": 2008,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -2470,7 +2470,7 @@
   {
     "Year": 2008,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -3657,7 +3657,7 @@
   {
     "Year": 2009,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -4898,7 +4898,7 @@
   {
     "Year": 2009,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -4906,7 +4906,7 @@
   {
     "Year": 2009,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -5429,7 +5429,7 @@
   {
     "Year": 2009,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -6633,7 +6633,7 @@
   {
     "Year": 2010,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -7858,7 +7858,7 @@
   {
     "Year": 2010,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -7866,7 +7866,7 @@
   {
     "Year": 2010,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -8281,7 +8281,7 @@
   {
     "Year": 2010,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -9452,7 +9452,7 @@
   {
     "Year": 2011,
     "Make": "Chrysler",
-    "Model": 200,
+    "Model": "200",
     "BodyStyles": [
       "Convertible",
       "Sedan"
@@ -9461,7 +9461,7 @@
   {
     "Year": 2011,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -10580,7 +10580,7 @@
   {
     "Year": 2011,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -10588,7 +10588,7 @@
   {
     "Year": 2011,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -11053,7 +11053,7 @@
   {
     "Year": 2011,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Convertible",
       "Coupe"
@@ -12294,7 +12294,7 @@
   {
     "Year": 2012,
     "Make": "Chrysler",
-    "Model": 200,
+    "Model": "200",
     "BodyStyles": [
       "Sedan",
       "Convertible"
@@ -12303,7 +12303,7 @@
   {
     "Year": 2012,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -12399,7 +12399,7 @@
   {
     "Year": 2012,
     "Make": "FIAT",
-    "Model": 500,
+    "Model": "500",
     "BodyStyles": [
       "Hatchback",
       "Convertible"
@@ -13360,7 +13360,7 @@
   {
     "Year": 2012,
     "Make": "Maybach",
-    "Model": 57,
+    "Model": "57",
     "BodyStyles": [
       "Sedan"
     ]
@@ -13368,7 +13368,7 @@
   {
     "Year": 2012,
     "Make": "Maybach",
-    "Model": 62,
+    "Model": "62",
     "BodyStyles": [
       "Sedan"
     ]
@@ -13859,7 +13859,7 @@
   {
     "Year": 2012,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -15134,7 +15134,7 @@
   {
     "Year": 2013,
     "Make": "Chrysler",
-    "Model": 200,
+    "Model": "200",
     "BodyStyles": [
       "Sedan",
       "Convertible"
@@ -15143,7 +15143,7 @@
   {
     "Year": 2013,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -15255,7 +15255,7 @@
   {
     "Year": 2013,
     "Make": "FIAT",
-    "Model": 500,
+    "Model": "500",
     "BodyStyles": [
       "Hatchback",
       "Convertible"
@@ -16715,7 +16715,7 @@
   {
     "Year": 2013,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -18062,7 +18062,7 @@
   {
     "Year": 2014,
     "Make": "Chrysler",
-    "Model": 200,
+    "Model": "200",
     "BodyStyles": [
       "Sedan",
       "Convertible"
@@ -18071,7 +18071,7 @@
   {
     "Year": 2014,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -18191,7 +18191,7 @@
   {
     "Year": 2014,
     "Make": "FIAT",
-    "Model": 500,
+    "Model": "500",
     "BodyStyles": [
       "Hatchback"
     ]
@@ -19739,7 +19739,7 @@
   {
     "Year": 2014,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -21160,7 +21160,7 @@
   {
     "Year": 2015,
     "Make": "Chrysler",
-    "Model": 200,
+    "Model": "200",
     "BodyStyles": [
       "Sedan"
     ]
@@ -21168,7 +21168,7 @@
   {
     "Year": 2015,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -21288,7 +21288,7 @@
   {
     "Year": 2015,
     "Make": "FIAT",
-    "Model": 500,
+    "Model": "500",
     "BodyStyles": [
       "Hatchback"
     ]
@@ -22920,7 +22920,7 @@
   {
     "Year": 2015,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -24387,7 +24387,7 @@
   {
     "Year": 2016,
     "Make": "Chrysler",
-    "Model": 200,
+    "Model": "200",
     "BodyStyles": [
       "Sedan"
     ]
@@ -24395,7 +24395,7 @@
   {
     "Year": 2016,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -24507,7 +24507,7 @@
   {
     "Year": 2016,
     "Make": "FIAT",
-    "Model": 500,
+    "Model": "500",
     "BodyStyles": [
       "Hatchback"
     ]
@@ -26190,7 +26190,7 @@
   {
     "Year": 2016,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -27649,7 +27649,7 @@
   {
     "Year": 2017,
     "Make": "Chrysler",
-    "Model": 200,
+    "Model": "200",
     "BodyStyles": [
       "Sedan"
     ]
@@ -27657,7 +27657,7 @@
   {
     "Year": 2017,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -27777,7 +27777,7 @@
   {
     "Year": 2017,
     "Make": "FIAT",
-    "Model": 500,
+    "Model": "500",
     "BodyStyles": [
       "Hatchback"
     ]
@@ -29770,7 +29770,7 @@
   {
     "Year": 2017,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -30036,7 +30036,7 @@
   {
     "Year": 2017,
     "Make": "Toyota",
-    "Model": 86,
+    "Model":"86",
     "BodyStyles": [
       "Coupe"
     ]

@@ -79,7 +79,7 @@
     <Rule Id="SA1005" Action="None" />
     <Rule Id="SA1006" Action="Error" />
     <Rule Id="SA1007" Action="Error" />
-    <Rule Id="SA1008" Action="Error" />
+    <Rule Id="SA1008" Action= "None" />
     <Rule Id="SA1010" Action="Error" />
     <Rule Id="SA1011" Action="Error" />
     <Rule Id="SA1012" Action="Error" />
@@ -119,7 +119,7 @@
     <!-- CommasMustBeSpaceCorrectly -->
     <Rule Id="SA1003" Action="Error" />
     <!-- SymbolsMustBeSpacedCorrectly -->
-    <Rule Id="SA1009" Action="Error" />
+    <Rule Id="SA1009" Action="None" />
     <!-- ClosingParenthesisMustBeSpacedCorrectly -->
     <Rule Id="SA1013" Action="Error" />
     <!-- ClosingBracesMustBeSpacedCorrectly -->

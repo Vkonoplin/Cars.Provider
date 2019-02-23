@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
-using VK.Cars.Provider.Service.WebApi.Business.Repositories;
+using VK.Cars.Provider.Service.WebApi.Business.Contracts;
 using VK.Cars.Provider.Service.WebApi.Db.Entities;
 
 namespace VK.Cars.Provider.Service.WebApi.Business.Services
@@ -31,18 +31,18 @@ namespace VK.Cars.Provider.Service.WebApi.Business.Services
             {
                 if (!dataSource.Any(r => r.Source == file))
                 {
-                    await Task.Factory.StartNew(
-                        () =>
-                    {
-                        var text = File.ReadAllText(file);
-                        var docs = BsonSerializer.Deserialize<BsonArray>(text).Select(p => p.AsBsonDocument).ToList();
-                        _carImportRepository.InsertDocuments(docs);
-                        _carImportRepository.InsertDataSource(new ImportDataSource
-                        {
-                            Source = file,
-                            Date = DateTime.UtcNow
-                        });
-                    }, CancellationToken.None);
+                     await Task.Run(
+                         () =>
+                         {
+                             var text = File.ReadAllText(file);
+                             var docs = BsonSerializer.Deserialize<BsonArray>(text).Select(p => p.AsBsonDocument).ToList();
+                             _carImportRepository.InsertDocuments(docs);
+                             _carImportRepository.InsertDataSource(new ImportDataSource
+                             {
+                                 Source = file,
+                                 Date = DateTime.UtcNow
+                             });
+                         }, CancellationToken.None);
                 }
             }
         }

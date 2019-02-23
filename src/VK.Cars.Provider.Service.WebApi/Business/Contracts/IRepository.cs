@@ -2,7 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 
-namespace VK.Cars.Provider.Service.WebApi.Business.Repositories
+namespace VK.Cars.Provider.Service.WebApi.Business.Contracts
 {
     public interface IRepository<T>
         where T : class

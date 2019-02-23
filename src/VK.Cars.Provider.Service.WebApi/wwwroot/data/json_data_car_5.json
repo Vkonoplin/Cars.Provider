@@ -762,7 +762,7 @@
   {
     "Year": 2018,
     "Make": "Chrysler",
-    "Model": 300,
+    "Model": "300",
     "BodyStyles": [
       "Sedan"
     ]
@@ -834,7 +834,7 @@
   {
     "Year": 2018,
     "Make": "FIAT",
-    "Model": 500,
+    "Model": "500",
     "BodyStyles": [
       "Hatchback"
     ]
@@ -2558,7 +2558,7 @@
   {
     "Year": 2018,
     "Make": "Porsche",
-    "Model": 911,
+    "Model": "911",
     "BodyStyles": [
       "Coupe",
       "Convertible"
@@ -2920,7 +2920,7 @@
   {
     "Year": 2018,
     "Make": "Toyota",
-    "Model": 86,
+    "Model": "86",
     "BodyStyles": [
       "Coupe"
     ]

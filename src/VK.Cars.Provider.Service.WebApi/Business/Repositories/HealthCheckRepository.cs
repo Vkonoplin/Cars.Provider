@@ -2,6 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.Driver.Core.Clusters;
+using VK.Cars.Provider.Service.WebApi.Business.Contracts;
 using VK.Cars.Provider.Service.WebApi.Db;
 using VK.Cars.Provider.Service.WebApi.Db.Entities;
 
