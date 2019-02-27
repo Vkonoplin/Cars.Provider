@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -67,6 +68,8 @@ namespace VK.Cars.Provider.Service.WebApi
                     sharedOptions.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
                 })
                 .AddAzureAdBewarer(options => Configuration.Bind("AzureAd", options));
+
+            services.AddSingleton(x => new MapperConfiguration(config => { config.AddProfile<MapperProfile>(); }).CreateMapper());
 
             services.AddOptions();
 
