@@ -3,7 +3,7 @@ using System.IO;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using VK.Cars.Provider.Service.WebApi.Infrastructure.Models;
+using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
 
 namespace VK.Cars.Provider.Service.WebApi
 {
@@ -29,6 +29,7 @@ namespace VK.Cars.Provider.Service.WebApi
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args, HostOptions hostConfig) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseApplicationInsights()
                 .UseUrls(hostConfig.Host)
                 .UseStartup<Startup>();
     }

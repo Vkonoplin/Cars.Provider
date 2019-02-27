@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using VK.Cars.Provider.Service.WebApi.Db;
-using VK.Cars.Provider.Service.WebApi.Infrastructure.Models;
+using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
 
 namespace VK.Cars.Provider.Service.WebApi.Infrastructure
 {

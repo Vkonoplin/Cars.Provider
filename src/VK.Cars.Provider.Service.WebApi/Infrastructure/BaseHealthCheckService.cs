@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using VK.Cars.Provider.Service.WebApi.Infrastructure.Models;
+using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
 
 namespace VK.Cars.Provider.Service.WebApi.Infrastructure
 {

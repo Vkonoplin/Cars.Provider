@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using VK.Cars.Provider.Service.WebApi.Business.Exceptions;
-using ErrorModel = VK.Cars.Provider.Service.WebApi.Infrastructure.Models.ErrorModel;
+using ErrorModel = VK.Cars.Provider.Service.WebApi.Infrastructure.Dto.ErrorModel;
 
 namespace VK.Cars.Provider.Service.WebApi.Infrastructure
 {

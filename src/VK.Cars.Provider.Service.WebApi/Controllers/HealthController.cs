@@ -3,7 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using VK.Cars.Provider.Service.WebApi.Business.Services;
-using VK.Cars.Provider.Service.WebApi.Infrastructure.Models;
+using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
 
 namespace VK.Cars.Provider.Service.WebApi.Controllers
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace VK.Cars.Provider.Service.WebApi.Infrastructure.Models
+namespace VK.Cars.Provider.Service.WebApi.Infrastructure.Dto
 {
     public class HealthCheckResponse
     {

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using VK.Cars.Provider.Service.WebApi.Business.Contracts;
 using VK.Cars.Provider.Service.WebApi.Db.Entities;
-using VK.Cars.Provider.Service.WebApi.Infrastructure.Models;
+using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
 
 namespace VK.Cars.Provider.Service.WebApi.Business.Services
 {
