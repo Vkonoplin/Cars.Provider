@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+ dynamoDb:
+    image: amazon/dynamodb-local
+    ports:
+      - "8000:8000"
+ sqlserver:
+    image: microsoft/mssql-server-linux:2017-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "StrongPassw0rd"
+    ports:
+      - "5434:1433"

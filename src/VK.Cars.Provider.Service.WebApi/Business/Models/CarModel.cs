@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VK.Cars.Provider.Service.WebApi.Models
+namespace VK.Cars.Provider.Service.WebApi.Business.Models
 {
     public class CarModel
     {

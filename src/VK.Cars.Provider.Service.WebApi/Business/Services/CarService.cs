@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using VK.Cars.Provider.Service.WebApi.Business.Contracts;
+using VK.Cars.Provider.Service.WebApi.Business.Models;
 using VK.Cars.Provider.Service.WebApi.Db.Entities;
 using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
-using VK.Cars.Provider.Service.WebApi.Models;
 
 namespace VK.Cars.Provider.Service.WebApi.Business.Services
 {

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
+using VK.Cars.Provider.Service.WebApi.Business.Models;
 using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
-using VK.Cars.Provider.Service.WebApi.Models;
 
 namespace VK.Cars.Provider.Service.WebApi.Business.Contracts
 {
