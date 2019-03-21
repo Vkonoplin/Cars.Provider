@@ -7,7 +7,7 @@ using VK.Cars.Provider.Service.WebApi.Business.Contracts;
 namespace VK.Cars.Provider.Service.WebApi.Controllers
 {
     [Authorize]
-    [Route("/v1/car")]
+    [Route("/api/car")]
     public class CarController : Controller
     {
         private readonly ICarService _carService;
