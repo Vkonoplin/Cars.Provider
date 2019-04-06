@@ -3,7 +3,6 @@ using System.IO;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using VK.Cars.Provider.Service.WebApi.Infrastructure.Dto;
 
 namespace VK.Cars.Provider.Service.WebApi
 {
@@ -11,26 +10,21 @@ namespace VK.Cars.Provider.Service.WebApi
     {
         public static void Main(string[] args)
         {
-            var hostConfig = new HostOptions();
-
-            var path = Directory.GetCurrentDirectory();
-            var configRoot = new ConfigurationBuilder()
-                .SetBasePath(path)
+            var config = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", true)
                 .AddEnvironmentVariables()
                 .Build();
-            configRoot.Bind(hostConfig);
 
-            CreateWebHostBuilder(args, hostConfig)
+            CreateWebHostBuilder(args, config)
 
                 .Build().Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args, HostOptions hostConfig) =>
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args, IConfiguration config) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseApplicationInsights()
-                .UseUrls(hostConfig.Host)
+                .UseConfiguration(config)
                 .UseStartup<Startup>();
     }
 }

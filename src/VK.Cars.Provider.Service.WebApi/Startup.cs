@@ -82,7 +82,7 @@ namespace VK.Cars.Provider.Service.WebApi
             services.AddSingleton<ICarRepository, CarRepository>();
             services.AddSingleton<ICarService, CarService>();
 
-            services.AddMvc(options => { options.Filters.Add<ExceptionFilter>(); }).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -90,18 +90,19 @@ namespace VK.Cars.Provider.Service.WebApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Manifest API");
+                });
+
+                app.UseSwagger();
+
+                app.UseCors("AllowAllOrigins");
             }
 
             app.UseStaticFiles();
 
-            app.UseSwagger();
-
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Manifest API");
-            });
-
-            app.UseCors("AllowAllOrigins");
             app.UseAuthentication();
 
             app.UseMvc();
