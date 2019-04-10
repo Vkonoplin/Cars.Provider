@@ -93,7 +93,7 @@ namespace VK.Cars.Provider.Service.WebApi
 
                 app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Manifest API");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web API");
                 });
 
                 app.UseSwagger();

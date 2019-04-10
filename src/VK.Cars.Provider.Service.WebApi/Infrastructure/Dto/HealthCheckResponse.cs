@@ -11,6 +11,6 @@ namespace VK.Cars.Provider.Service.WebApi.Infrastructure.Dto
 
         public string MachineName => Environment.MachineName;
 
-        public string Build => Environment.GetEnvironmentVariable("BUILD_VERSION");
+        public string HostingEnvironment => Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
     }
 }
