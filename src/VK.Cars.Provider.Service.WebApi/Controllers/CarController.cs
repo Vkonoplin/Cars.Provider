@@ -6,7 +6,6 @@ using VK.Cars.Provider.Service.WebApi.Business.Contracts;
 
 namespace VK.Cars.Provider.Service.WebApi.Controllers
 {
-    [Authorize]
     [Route("/api/car")]
     public class CarController : Controller
     {
